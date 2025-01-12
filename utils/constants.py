@@ -139,14 +139,14 @@ Certification = [
                 """, 
                 ":red[Verify Credential]", "https://eict.iitr.ac.in/wp-content/uploads/cert-9OWF3.jpg"],
 
-                [":red[Object Recognition and NLP with Tensorflow]", "**Issuing Body: InterviewBit", 
+                [":red[Object Recognition and NLP with Tensorflow]", "**Issuing Body: InterviewBit**", 
                 "July 2020", "", 
                 """
                 - **Credential ID**: b3ba1db1d706
                 """, 
                 ":red[Verify Credential]", "https://content.interviewbit.com/events/introduction-to-machine-learning-object-recognition-and-nlp-with-tensorflow/certificates/b3ba1db1d706.pdf"],
 
-                [":red[Machine Learning by Andrew NG]", "**Issuing Body: Coursera", 
+                [":red[Machine Learning by Andrew NG]", "**Issuing Body: Coursera**", 
                 "July 2020", "", 
                 """
                 - **Credential ID**: 7AVUDBNDMMD5
