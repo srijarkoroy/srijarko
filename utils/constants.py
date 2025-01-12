@@ -156,6 +156,37 @@ Certification = [
 
               ]
 
+Projects =  [
+                [":red[VisionDash]", "**Computer Vision**", 
+                "", "", 
+                """
+                :red[VisionDash] allows Computer Vision enthusiasts to run various CV methods on any image compiled on a single dashboard. This helps them visualize techniques like Object Detection, Instance Segmentation, Semantic Segmentation, Style Transfer, Image Classification, Super Resolution, Denoising, Image generation using GANs, and Face Detection efficiently, serving as an effective teaching tool.
+                """, 
+                ":red[Source Code]", "https://github.com/srijarkoroy/VisionDash"],
+
+                [":red[ArtiStyle]", "**Computer Vision, Neural Style Transfer, Deep Learning**", 
+                "", "", 
+                """
+                :red[ArtiStyle] is an implementation of the research paper "A Neural Algorithm of Artistic Style" written by Leon A. Gatys, Alexander S. Ecker, Matthias Bethge. The idea of Neural Style Transfer is taking a white noise as an input image, changing the input in such a way that it resembles the content of the content image and the texture/artistic style of the style image to reproduce it as a new artistic stylized image.
+                """, 
+                ":red[Source Code]", "https://github.com/srijarkoroy/ArtiStyle"],
+
+                [":red[segRetino]", "**Computer Vision, Semantic Segmentation, Medical Imaging**", 
+                "", "", 
+                """
+                :red[segRetino] is an implementation of the research paper "Retina Blood Vessel Segmentation Using A U-Net Based Convolutional Neural Network" written by Wang Xiancheng, Li Weia, et al. The paper presents a network and training strategy that relies on the data augmentation to use the available annotated samples more efficiently, to segment retinal blood vessels using a UNET convolutional neural network.
+                """, 
+                ":red[Source Code]", "https://github.com/srijarkoroy/segRetino"],
+
+                [":red[capbot]", "**Computer Vision, Natural Language Processing**", 
+                "", "", 
+                """
+                Present state-of-the-art Surveillance Devices require both consistent manual assistance and time for their successful operation. This results in a considerable loss of manual and technical resources. :red[capbot] is a Deep Learning Application that will be able to solve the above mentioned problems. It is capable of running Image Captioning on multiple CCTV footages and storing the captions along with the camera number and the time of capture in a convenient log. The file of saved captions can then be used to look up for incidents from any instant of time just by entering a few keywords. The returned camera number and time slot can then be used to obtain the required CCTV footage.
+                """, 
+                ":red[Source Code]", "https://github.com/aryankargwal/capbot2.0"]
+
+              ]
+
 Publication = [
                 [":red[Attention Mechanism, Linked Networks, and Pyramid Pooling Enabled 3D Biomedical Image Segmentation]", "**Publisher : IEEE**", 
                 "December 2022", "", 

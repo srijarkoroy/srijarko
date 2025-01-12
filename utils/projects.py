@@ -1,11 +1,11 @@
 import streamlit as st
 from utils.constants import *
 
-def publication():
-    st.header("📖 Publications",divider='red')
+def project():
+    st.header("💡 Projects",divider='red')
     st.write("")
 
-    def publication_unit(title, position, date, location, content, button_name, button_link, code_name, code_link):
+    def certification_unit(title, position, date, location, content,button_name,button_link):
         col1, col2, col3 = st.columns([3, 1, 1])
         with col1:
             st.subheader(title)
@@ -19,8 +19,7 @@ def publication():
             st.markdown("######   " + location)
         st.write(content)
         st.link_button(button_name, button_link)
-        st.link_button(code_name, code_link)
         st.divider()
 
-    for exp in Publication:
-        publication_unit(exp[0],exp[1],exp[2],exp[3],exp[4],exp[5],exp[6],exp[7],exp[8])
+    for exp in Projects:
+        certification_unit(exp[0],exp[1],exp[2],exp[3],exp[4],exp[5],exp[6])

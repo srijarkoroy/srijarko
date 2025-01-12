@@ -2,7 +2,7 @@ import streamlit as st
 from utils.constants import *
 
 def experience():
-    st.header("📚 Experience",divider='red')
+    st.header("📋 Experience",divider='red')
     st.write("")
 
     def experience_unit(title, position, date, location, content, button_name, button_link):

@@ -3,7 +3,7 @@ from utils.constants import *
 
 def skills(): 
     # skills --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    st.header("Skills",divider='red') 
+    st.header("🔎 Skills",divider='red') 
 
     def skill_tab():
         rows, cols = len(info['skills'])//skill_col_size, skill_col_size

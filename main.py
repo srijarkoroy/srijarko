@@ -8,6 +8,7 @@ from utils.experience import *
 from utils.education import *
 from utils.certifications import *
 from utils.publication import *
+from utils.projects import *
 
 st.set_page_config(layout="wide")
 
@@ -68,3 +69,6 @@ elif opt == "Certifications":
 
 elif opt == "Publications":
     publication()
+
+elif opt == "Research and Projects":
+    project()

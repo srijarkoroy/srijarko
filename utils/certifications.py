@@ -2,7 +2,7 @@ import streamlit as st
 from utils.constants import *
 
 def certification():
-    st.header("📚 Licences and Certifications",divider='red')
+    st.header("🏆 Licences and Certifications",divider='red')
     st.write("")
 
     def certification_unit(title, position, date, location, content,button_name,button_link):
