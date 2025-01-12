@@ -82,7 +82,6 @@ Experience = [
                     "Jul 2021 – Oct 2021", "Remote", 
                     """
                     - Mentoring Machine Learning enthusiasts selected for a bootcamp in tie-up with Intel AI, helping them understand Machine Learning concepts and guiding them towards building Maching Learning projects from scratch.
-                    - This internship is extremely special to me because I had the opportunity to meet and mentor the smartest person I have ever met, on her project :red[Allergenius]. I had no idea back then that I have met the :red[LOVE OF MY LIFE].
                     """,
                     ":red[Shashwat Foundation]", "https://www.linkedin.com/company/shashwat-foundation/"]
               ]      
