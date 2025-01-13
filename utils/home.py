@@ -2,13 +2,10 @@ import streamlit as st
 
 def home():
 
-    left_co, cent1_co, last_co = st.columns(3)
-    with cent1_co:
-        st.image("images/about/srijarko.png", width=300)
-
     html_temp = """
         <div>
         <h5></h5>
+        <center><img src = "https://raw.githubusercontent.com/srijarkoroy/srijarko/refs/heads/main/images/about/srijarko.png" height=350 width=350></center>
         <center><h1>Hello, I'm Srijarko Roy!</h1></center>
         <center><h3>Software Engineer <br>(Digital Technology and Innovation) <br>at Wells Fargo</h3></center>
         </div>
