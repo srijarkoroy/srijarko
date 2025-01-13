@@ -98,7 +98,7 @@ Education = [
                 """, 
                 ":red[SRMIST]", "https://www.srmist.edu.in/"],
 
-                [":red[Ramakrishna Mission Vidyapith, Deoghar] | Senior Secondary Education", "", 
+                [":red[Ramakrishna Mission Vidyapith, Deoghar] | Senior Secondary Education", "Science", 
                 "Jun 2017 – Apr 2019", "Deoghar, India", 
                 """
                 - **GRADE**: :red[**94.2%**]
