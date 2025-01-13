@@ -19,7 +19,7 @@ info = {'brief':
         'study':'Bachelor of Technology (Computer Science and Engineering)',
         'location':'Hyderabad, India',
         'interest':'Machine Learning, Data Science, Computer Vision',
-        'skills':['Python','Machine Learning','Deep Learning', 'Computer Vision', 'NLP', 'PyTorch', 'Tensorflow', 'OpenCV', 'ANN', 'CNN', 'Java', 'Springboot', 'REST API', 'HTML & CSS', 'Streamlit'],
+        'skills':['Python','Machine Learning','Deep Learning', 'Computer Vision', 'NLP', 'PyTorch', 'Tensorflow', 'OpenCV', 'Data Science', 'Data Structures', 'C Programming', 'C++', 'Java', 'Springboot', 'REST API', "HTML", "CSS", "Streamlit", "Web Design", "Microsoft Azure"],
         }
 
 skill_col_size = 5
@@ -156,7 +156,7 @@ Certification = [
               ]
 
 Projects =  [
-                [":red[VisionDash]", "**Computer Vision**", 
+                [":red[VisionDash]", "**Computer Vision, Image Processing**", 
                 "", "", 
                 """
                 :red[VisionDash] allows Computer Vision enthusiasts to run various CV methods on any image compiled on a single dashboard. This helps them visualize techniques like Object Detection, Instance Segmentation, Semantic Segmentation, Style Transfer, Image Classification, Super Resolution, Denoising, Image generation using GANs, and Face Detection efficiently, serving as an effective teaching tool.
@@ -170,6 +170,20 @@ Projects =  [
                 """, 
                 ":red[Source Code]", "https://github.com/srijarkoroy/ArtiStyle"],
 
+                [":red[capbot]", "**Computer Vision, Natural Language Processing**", 
+                "", "", 
+                """
+                Present state-of-the-art Surveillance Devices require both consistent manual assistance and time for their successful operation. This results in a considerable loss of manual and technical resources. :red[capbot] is a Deep Learning Application that will be able to solve the above mentioned problems. It is capable of running Image Captioning on multiple CCTV footages and storing the captions along with the camera number and the time of capture in a convenient log. The file of saved captions can then be used to look up for incidents from any instant of time just by entering a few keywords. The returned camera number and time slot can then be used to obtain the required CCTV footage.
+                """, 
+                ":red[Source Code]", "https://github.com/aryankargwal/capbot2.0"],
+
+                [":red[EpilepsyEye.ai]", "**Computer Vision, Video Processing**", 
+                "", "", 
+                """
+                Epilepsy is a neurological disorder characterized by recurrent, unprovoked seizures caused by abnormal brain activity, sometimes triggered by flashing lights or patterns, a condition known as photosensitive epilepsy. These seizures occur due to overexcitation in the brain caused by visual stimuli, typically in specific light frequencies. :red[EpilepsyEye.ai] is a web application that automatically detects images causing strobe behavior or Epilepsy in a video and blocks the frames or convert the frames to grayscale based on the choice of the user.
+                """, 
+                ":red[Source Code]", "https://github.com/sd2001/EpilepsyEye.ai"],
+
                 [":red[segRetino]", "**Computer Vision, Semantic Segmentation, Medical Imaging**", 
                 "", "", 
                 """
@@ -177,12 +191,12 @@ Projects =  [
                 """, 
                 ":red[Source Code]", "https://github.com/srijarkoroy/segRetino"],
 
-                [":red[capbot]", "**Computer Vision, Natural Language Processing**", 
+                [":red[fix-res]", "**Computer Vision**", 
                 "", "", 
                 """
-                Present state-of-the-art Surveillance Devices require both consistent manual assistance and time for their successful operation. This results in a considerable loss of manual and technical resources. :red[capbot] is a Deep Learning Application that will be able to solve the above mentioned problems. It is capable of running Image Captioning on multiple CCTV footages and storing the captions along with the camera number and the time of capture in a convenient log. The file of saved captions can then be used to look up for incidents from any instant of time just by entering a few keywords. The returned camera number and time slot can then be used to obtain the required CCTV footage.
+                :red[fix-res] is an implementation of the research paper "Fixing the train test resolution discrepancy". The implementation shows how reducing the train resolution and increasing the test resolution has an improvement on a given cnn model’s performance for classification purposes. However, there is a direct clash with the way the model interprets images after training on cropped images, and so needs minor and computationally inexpensive finetuning at the end of the convolutional blocks to adapt to that change during higher test resolutions to avoid a domain shift.
                 """, 
-                ":red[Source Code]", "https://github.com/aryankargwal/capbot2.0"]
+                ":red[Source Code]", "https://github.com/ThatAmuzak/fix-res"]
 
               ]
 
