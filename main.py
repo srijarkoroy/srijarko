@@ -10,7 +10,7 @@ from utils.certifications import *
 from utils.publication import *
 from utils.projects import *
 
-st.set_page_config(layout="wide")
+st.set_page_config(page_title="Srijarko Roy", layout="wide")
 
 with st.sidebar:
 
