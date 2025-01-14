@@ -44,13 +44,13 @@ with st.sidebar:
 
     left_co, cent1_co, cent2_co, cent3_co, cent4_co, last_co = st.columns(6)
     with cent1_co:
-        st.markdown("[![Git](https://img.icons8.com/?size=25&id=106562&format=png&color=FFFFFF)](https://github.com/srijarkoroy)")
+        st.markdown("[![Git](https://img.icons8.com/?size=35&id=106562&format=png&color=FFFFFF)](https://github.com/srijarkoroy)")
     with cent2_co:
-        st.markdown("[![Link](https://img.icons8.com/?size=25&id=98960&format=png&color=FFFFFF)](https://www.linkedin.com/in/srijarko-roy-9193751b0/)")
+        st.markdown("[![Link](https://img.icons8.com/?size=35&id=98960&format=png&color=FFFFFF)](https://www.linkedin.com/in/srijarko-roy-9193751b0/)")
     with cent3_co:
-        st.markdown("[![Insta](https://img.icons8.com/?size=25&id=32320&format=png&color=FFFFFF)](https://www.instagram.com/srijarko/)")
+        st.markdown("[![Insta](https://img.icons8.com/?size=35&id=32320&format=png&color=FFFFFF)](https://www.instagram.com/srijarko/)")
     with cent4_co:
-        st.markdown("[![Med](https://img.icons8.com/?size=25&id=bocK2vOACVtF&format=png&color=FFFFFF)](https://medium.com/@srijarkoroy4u)")
+        st.markdown("[![Med](https://img.icons8.com/?size=35&id=bocK2vOACVtF&format=png&color=FFFFFF)](https://medium.com/@srijarkoroy4u)")
 
 if opt == "Home":
     home()
